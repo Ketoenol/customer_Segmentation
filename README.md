@@ -35,8 +35,21 @@ The project loads an online retail dataset, cleans the data, calculates **Recenc
    ```bash
    git clone https://github.com/ketoenol/customer_segmentation.git
 
-##Dataset: 
-[Download onlineRetail.csv](https://drive.google.com/file/d/1gReuh5dAEF5FQv_fy78-laLd_GEyVqwk/view?usp=sharing)
+## Usage  
+-1. Make sure `onlineRetail.csv` is in the project folder.
+-2. Run the main script:
+
+   python3 customer_segmentation.py
+
+-3. After running, the following will happen:
+   - Data will be cleaned and preprocessed.
+   - RFM scores will be calculated.
+   - Customers will be clustered into segments using K-Means.
+   - Output will be saved to `customer_segments.csv`.
+-4. You can open `customer_segments.csv` to see the segmented customer data.
+
+## Dataset 
+- [Download onlineRetail.csv](https://drive.google.com/file/d/1gReuh5dAEF5FQv_fy78-laLd_GEyVqwk/view?usp=sharing)
 
 ##Liscence 
-This project is licensed under the MIT License.
+- This project is licensed under the MIT License.
