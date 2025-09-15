@@ -34,3 +34,9 @@ The project loads an online retail dataset, cleans the data, calculates **Recenc
 1. Clone the repository:
    ```bash
    git clone https://github.com/ketoenol/customer_segmentation.git
+
+##Dataset: 
+[Download onlineRetail.csv](https://drive.google.com/file/d/1gReuh5dAEF5FQv_fy78-laLd_GEyVqwk/view?usp=sharing)
+
+##Liscence 
+This project is licensed under the MIT License.
